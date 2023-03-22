@@ -1,0 +1,37 @@
+14)escreval("Digite o nome do time 1")
+leia(nometime1)
+escreval("Digite o numero de gols feitos (time 1)")
+leia(golstime1)
+
+escreval("Digite o nome do time 2")
+leia(nometime2)
+escreval("Digite o numero de gols feitos (time 2)")
+leia(golstime2)
+
+se (golstime1 > golstime2) entao
+escreval(nometime1," ganhou")
+fimse
+
+se (golstime1 < golstime2) entao
+escreval(nometime2," ganhou")
+fimse
+
+se (golstime1 = golstime2) entao
+escreval("empate")
+fimse
+Fimalgoritmo
+
+11)Inicio  escreval("Digite o código do usuário: ") 
+ leia(codigo)  
+se (codigo<>1234) 
+entao  escreval("Usuário inválido")  
+senao  escreval("Digite a Senha: ") 
+ leia(senha)  
+se (senha<>9999) 
+entao  escreval ("Senha incorreta!")  senao  escreval ("Acesso Permitido!")
+
+
+5)inicio escreva("Digite o seu salario") 
+leia(salario) escreva("total de vendas") leia(vendas) se vendas>1500 
+entao a<- vendas*0.05 b<- salario+a escreva("Salario total ",b) 
+senao a<- vendas*0.03 b <- salario+a escreva("Salario total ",b)
